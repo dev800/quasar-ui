@@ -137,7 +137,7 @@ export default Vue.extend({
 
       const child = [
         h(QIcon, {
-          staticClass: 'q-expansion-item__toggle-icon icon-chevron-down',
+          staticClass: 'q-expansion-item__toggle-icon',
           class: this.expandedIcon === void 0 && this.showing === true
             ? 'q-expansion-item__toggle-icon--rotated'
             : void 0,

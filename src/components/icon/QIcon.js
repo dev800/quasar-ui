@@ -123,7 +123,7 @@ export default Vue.extend({
 
       return {
         cls: cls + ' ' + this.classes,
-        content: ' '
+        content
       }
     }
   },
